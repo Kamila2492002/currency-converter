@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    width: 1000px;
+    font-family: "Lato", sans-serif;
+    background-color: #eee;
+    margin: auto;
+    background-image: url("../Images/tło.jpg");
+    background-position: center;
+}
+
+.header {
+    font-weight: 700;
+    font-family: "lato", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 50px auto;
+    color: rgb(255, 145, 0);
+}
+
+.footer {
+    width: 100%;
+    margin-left: 10 auto;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form__legend {
+    background-color: rgb(248, 143, 6);
+    color: rgb(44, 43, 43);
+    border: 1px solid rgb(248, 143, 6);
+    ;
+    border-radius: 5px;
+    margin: 10px 10px;
+    padding: 2px;
+    box-shadow: 5px -5px 24px 0px rgba(127, 82, 0, 0.3);
+}
+
+.form {
+    color: black;
+}
+
+.form__fieldset {
+    display: block;
+    max-width: 650px;
+    margin: auto auto;
+    border-radius: 5px;
+    border-color: rgb(44, 43, 43);
+    background-color: white;
+    box-shadow: 5px -5px 24px 0px rgba(127, 82, 0, 0.3);
+}
+
+.form__select {
+    margin: auto 10px;
+}
+
+.form__labelText {
+    font-size: 600;
+    font-family: "lato", sans-serif;
+}
+
+.form__button {
+    max-width: 100px;
+    position: relative;
+    margin: 20px auto;
+}
+
+.result {
+    font-weight: bold;
+    text-align: center;
+}
